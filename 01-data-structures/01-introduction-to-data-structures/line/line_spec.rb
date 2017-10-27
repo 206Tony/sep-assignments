@@ -58,5 +58,4 @@ RSpec.describe Line, type: Class do
       expect(line.search("Donald")).to be_nil
     end
   end
-
 end
