@@ -1,0 +1,11 @@
+1.) Spatial locality refers to the use of data elements within relatively close storage locations. Sequential locality, a special case of spatial locality, occurs when data elements are arranged and accessed linearly, such as, traversing the elements in a one-dimensional array.
+
+2.) The output below indicates that a linked list uses less memory to create and delete elements, and an array uses less for locating a specific index.
+
+       															user      system     total        real
+Add 10000 items to array          0.010000   0.000000   0.010000   (0.000832)
+Append 10000 items to llist  			0.000000   0.000000   0.000000   (0.000003)
+5000th element of array      			0.000000   0.000000   0.000000   (0.000003)
+5000th element of llist      			0.000000   0.000000   0.000000   (0.000006)
+remove 5000th element from array  0.000000   0.000000   0.000000   (0.000969)
+remove 5000th element from llist  0.000000   0.000000   0.000000   (0.000009)
