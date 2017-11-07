@@ -1,0 +1,1 @@
+The reason that doubling the size of the underlying array HashClass may be a poor idea is because it increases the number of slots in the array causing a higher likeliness for fragmentation, which could in turn reduce performance and capacity.   

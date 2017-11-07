@@ -3,5 +3,7 @@ class HashItem
   attr_accessor :value
 
   def initialize(key, value)
-  end
+  	@key = key
+  	@value = value
+  end 
 end
