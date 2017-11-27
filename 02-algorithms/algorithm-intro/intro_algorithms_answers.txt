@@ -1,0 +1,25 @@
+Morning Start:
+Wake Up 
+Get out of bed 
+Take shower
+Get dressed
+Make coffee
+Open laptop
+
+Calculating Tip:
+if service == great
+	puts "20 percent" + bill
+elsif service == ok 
+	puts "10 percent" + bill
+else
+	puts "don't eat yellow show"
+end
+
+Determine what to wear:
+def outfit
+	while pants === "jeans" && shirt === "black"
+		if clean == true
+			return "wear pants and shirt"
+		end
+	end
+end
