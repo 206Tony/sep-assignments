@@ -1,0 +1,21 @@
+1. Given the alphabetically sorted collection in this checkpoint, how many iterations would it take to find the value G using linear search?
+
+	It would take 7 iterations because in linear search it sequencially goes through all the items in the list.  Being that G is the sixth index it would take 7 iterations to reach G being that arrays start at index 0.
+
+2. Given the alphabetically sorted collection in this checkpoint, how many iterations would it take to find the value G using binary search?
+
+	Using Binary search it would take three iterations.  First iteration halfs the list since D is the mid point or the first value looked at and that value is less then G. The next iteration would start at the mid which would be F.  Since F < G it iterates one more time and finds value H.
+
+3. Calculate fib(10), fib(11), fib(12) by hand.
+
+	fib(10) = 0 + 1 + (1+0) + (1+1) + (2+3) + (3+5) + (5+8) + (8+13) + (13+21) + (21+34) = 55
+	fib(11) = 34 + 55 = 89
+	fib(12) = 55 + 89 = 144
+
+4. Given an unsorted collection of a million items, which algorithm would you choose between linear search and binary search? Would you use an iterative or recursive solution? Explain your reasoning.
+
+	I would use binary search over linear search.  Binary search halves the data until it finds the item it is searching for where as linear would go through every item starting at index 0.  I would use iteration over recursion because recursion has to run the loop and call stack frame, which means more code to run, meaning it will take longer.
+
+5. Given a sorted collection of a million items, which algorithm would you choose between linear search and binary search? Would you use an iterative or recursive solution? Explain your reasoning.
+
+	I would use binary search and iterative solution. I would use both over the linear and recursion because they complete the task more quickly.
