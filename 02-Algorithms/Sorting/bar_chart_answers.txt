@@ -1,0 +1,6 @@
+ user     system      total        real
+quick_sort  0.000000   0.000000   0.000000 (  0.000157)
+heap_sort  0.000000   0.000000   0.000000 (  0.000091)
+bucket_sort  0.000000   0.000000   0.000000 (  0.000026)
+
+I think the sorting method that uses the least amount of operations will always be the fastest.  Bucket sort was the fastest here because it used the least amount of comparisons.
