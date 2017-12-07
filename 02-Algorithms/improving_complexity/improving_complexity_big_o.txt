@@ -1,0 +1,17 @@
+      user     system      total        real
+complexity one array one  0.020000   0.000000   0.020000 (  0.017879)
+complexity one array two  0.140000   0.000000   0.140000 (  0.147207)
+complexity one array three  0.390000   0.000000   0.390000 (  0.393133)
+complexity two array one  0.000000   0.000000   0.000000 (  0.000223)
+complexity two array two  0.010000   0.000000   0.010000 (  0.000644)
+complexity two array three  0.000000   0.000000   0.000000 (  0.001027)
+complexity three array one  0.000000   0.000000   0.000000 (  0.000239)
+complexity three array two  0.000000   0.000000   0.000000 (  0.000607)
+complexity three array three  0.000000   0.000000   0.000000 (  0.001095)
+
+2: Time-complexity: O(nlogn) Merge Sort (divides input array in two halves, 
+calls itself for the two halves and then merges the two sorted halves recursively)
+
+3: Time Complexity three; O(n^2),In-place,stable Very useful for sorting nearly sorted array, very
+fast and effective for small size arrays Worst case: Array is reverse sorted, Best case: 
+Array is already sorted (O(n) time)
